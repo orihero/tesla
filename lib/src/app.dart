@@ -1,4 +1,5 @@
 import 'package:Tesla/src/ui/screens/main/body.dart';
+import 'package:Tesla/src/ui/screens/splash/body.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -6,6 +7,13 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MainScreen();
+    return Stack(children: <Widget>[
+      Scaffold(
+          appBar: AppBar(
+            title: Text('Raindrop App'),
+          ),
+          body: MainScreen()),
+      IgnorePointer(child: SplashScreen())
+    ]);
   }
 }

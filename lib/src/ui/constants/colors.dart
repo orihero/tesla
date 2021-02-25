@@ -9,4 +9,5 @@ class ColorPalatte {
   static final defaultBorderColor = Color(0xff2C3036);
   static final defaultLightText = Color(0xfffdfdfd);
   static final defaultDarkText = Color(0xff7F8489);
+  static final white = Color(0xffffffff);
 }

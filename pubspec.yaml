@@ -32,6 +32,7 @@ dependencies:
     rxdart: ^0.25.0
     http: ^0.12.2
     lottie: ^0.7.0+1
+    flutter_svg: ^0.19.0
 
 dev_dependencies:
     flutter_test:
@@ -58,6 +59,7 @@ flutter:
               
     assets:    
       - assets/images/
+      - assets/lottie/
 
     # The following line ensures that the Material Icons font is
     # included with your application, so that you can use the icons in
